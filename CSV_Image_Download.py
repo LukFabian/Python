@@ -1,3 +1,7 @@
+"""
+Python script that downloads pictures from a csv column and converts them into .jpg pictures.
+Uses pandas for csv reading, regular expressions for file endings and shutil for image conversions
+"""
 import pandas as pd
 import requests
 import shutil
