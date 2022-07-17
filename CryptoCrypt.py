@@ -1,3 +1,8 @@
+"""
+Long term project: Trying to simulate different encryptions and also their decryptions and possible attacks on them within python.
+More encryption methods will be added in the future!
+Uses built-in module: string
+"""
 import string
 
 
