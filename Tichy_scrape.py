@@ -1,3 +1,8 @@
+"""
+Webscraper specifically made for 'https://www.tichyseinblick.de/'.
+Starts with the same initial article and crawls through the site while printing the articles.
+You could easily add the contents to a file instead of just printing them into the console, you could also change the initial link or use 'input()'
+"""
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from urllib.error import URLError
